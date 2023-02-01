@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!--form container containg login form  --->
+    <div class="form-container">
+        <h2>Signup Form</h2>
+        <form action="" onsubmit='return(formValidator());'>
+            
+            <input type='text' id='username' placeholder='Enter username here'> <br>
+            <p class='error' id='userError'></p>
+
+            <input type='email' id='email' placeholder='Enter email id here' > <br>
+            <p class="error" id='emailError'></p>
+
+
+            <input type='password' id='password' placeholder='Enter password here'><br>
+            <p class='error' id='passError'></p>
+
+           
+            <input type='submit' value='Signup'>
+        </form>
+    </div>
+
+    <!-- javaScript file here -->
+
+    <script src="form_validation.js"></script>
+</body>
+</html>
